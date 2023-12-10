@@ -15,7 +15,7 @@ const SIDES = {
   Tails: [0, 2],
 }
 
-const WAGER_OPTIONS = [0.05, 0.1, 0.5, 1, 3].map(solToLamports)
+const WAGER_OPTIONS = [0.01, 0.05, 0.1, 0.5, 1, 3].map(solToLamports)
 
 export default function Flip() {
   const gamba = useGamba()
